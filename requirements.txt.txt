@@ -1,0 +1,18 @@
+# LangChain core
+langchain>=0.1.0
+chromadb>=0.4.24
+
+# Embeddings locaux
+sentence-transformers>=2.2.2
+
+# Transformers + LLMs locaux
+transformers>=4.36.2
+accelerate>=0.25.0
+torch>=2.1.0
+huggingface-hub>=0.20.3
+
+# PDF parsing
+pdfminer.six>=20221105
+
+# Optionnel : pour certaines fonctions avancées de LangChain
+tqdm
